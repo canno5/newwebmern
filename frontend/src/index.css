@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+.navbar{
+  padding: 1.5rem 0 !important; 
+}
+.navbar-brand{
+  font-size: 2.4rem;
+}
+.navbar ul li{
+  padding: 0 1rem ;
+}
+.navbar-nav{
+  width: 100%;
+  justify-content: end;
+}
+.navbar ul li a{
+  font-size: 1.22rem;
+  transition: .3s;
+  /* width: 0%; */
+  /* display: inline-block !important; */
+  /* white-space: nowrap; */
+  padding: 0 !important;
+  border-bottom: 2px solid transparent;
+}
+.navbar-brand,
+.navbar ul li a{
+  color: black !important;
+}
+.navbar ul li a:hover,
+.navbar ul li a.active{
+  border-bottom: 2px solid black;
+
+}
+.home-section,
+.contact-sec{
+  height: 85vh;
+}
+.home-section{
+  place-content: center;
+}
+.home-info h2{
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.home-info h2 span{
+  color: red;
+}
+.msg-info p,
+footer p, 
+.contact-info p,
+.home-info p{
+  color: #777;
+  line-height: 25px;
+  font-size: 1rem;
+  letter-spacing: .1px;
+}
+.home-info button{
+  background: dodgerblue;
+  color: white;
+  padding: .5rem 1rem;
+  border: none; 
+}
+.contact-info{
+  width: 90%;
+}
+.img-err img,
+.contact-img img,
+.home-img img{
+  width: 100%;
+}
+.contact-info p span{
+  font-weight: 500;
+  color: black;
+  padding-right: 1rem;
+}
+.msg-info h2,
+footer{
+  padding: 1rem 0;
+}
+.navbar-toggler{
+  background: black !important;
+}
+@media (max-width:992px) {
+  .home-info h2{
+    font-size: 1.8rem;
+  }
+}
+@media (max-width:768px) {
+  .col-box{
+    flex-direction: column-reverse;
+  }
+  .home-info{
+    margin: 2rem 0;
+  }
+  footer p{
+    font-size: 12px;
+  }
+  .err-msg,
+  .home-info h2{
+    font-size: 1.4rem !important;
+  }
+  .home-section,
+  .contact-sec{
+    height: auto;
+  }
+}
+.msg-box{
+  text-align: center;
+  background: rgb(247, 240, 240);
+  width: 42%;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  /* display: none; */
+  clip-path: inset(0% 0% 100% 0%);
+  /* visibility: visible; */
+  /* visibility: hidden; */
+  /* visibility: visible; */
+  /* z-index: 999; */
+  transition: .1s;
+  /* transition: 5s ease-out; */
+}
+.msg-show{
+  clip-path: inset(0% 0% 0% 0%);
+}
+.msg-info p{
+  font-size: 1.2rem;
+}

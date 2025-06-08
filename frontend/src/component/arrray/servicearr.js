@@ -1,0 +1,8 @@
+export const ServicesArr = [
+    { id: 1, title: "Logo Design", para: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consequuntur perspiciatis tenetur sint natus architecto voluptate magnam ut asperiores pariatur. Cumque excepturi et minus illum culpa? Ad consequatur sapiente id ssasans."},
+    { id: 2, title: "Web Desing", para: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consequuntur perspiciatis tenetur sint natus architecto voluptate magnam ut asperiores pariatur. Cumque excepturi et minus illum culpa? Ad consequatur sapiente id ssasans." },
+    { id: 3, title: "E-commerce Site", para: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consequuntur perspiciatis tenetur sint natus architecto voluptate magnam ut asperiores pariatur. Cumque excepturi et minus illum culpa? Ad consequatur sapiente id ssasans." },
+    { id: 4, title: "Model Design", para: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consequuntur perspiciatis tenetur sint natus architecto voluptate magnam ut asperiores pariatur. Cumque excepturi et minus illum culpa? Ad consequatur sapiente id ssasans." },
+    { id: 5, title: "Hart Desgin", para: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consequuntur perspiciatis tenetur sint natus architecto voluptate magnam ut asperiores pariatur. Cumque excepturi et minus illum culpa? Ad consequatur sapiente id ssasans." },
+    { id: 6, title: "Template Design", para: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consequuntur perspiciatis tenetur sint natus architecto voluptate magnam ut asperiores pariatur. Cumque excepturi et minus illum culpa? Ad consequatur sapiente id ssasans." }
+];
