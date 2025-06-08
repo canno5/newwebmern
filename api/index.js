@@ -13,10 +13,10 @@ const path = require('path');
 // })
 
 const staticPath = path.join(__dirname, '../frontend');
-app.use(express.static(`${staticPath}/build`));
 app.use(express.json());
 app.use('/api', router);
 app.use(validate);
+app.use(express.static(`${staticPath}/build`));
 
 
 // console.log(path.join(__dirname, '../frontend/build', 'index.html'));
